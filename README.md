@@ -1,2 +1,2 @@
-# Project-SKEZ
+# ACADEMIAN
 SpartaHack 9 Project
