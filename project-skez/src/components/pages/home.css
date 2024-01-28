@@ -1,0 +1,7 @@
+.home {
+    height: 1000px;
+    background-color: aquamarine;
+    background-position: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
