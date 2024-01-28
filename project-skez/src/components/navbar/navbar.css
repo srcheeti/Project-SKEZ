@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 10px;
     color: white;
     background-color: #00573F;
+    opacity: 75%;
 }
 
 .nav-logo {
