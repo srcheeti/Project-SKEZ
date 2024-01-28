@@ -25,3 +25,18 @@
 .fade-in {
     animation: fadeIn 500ms ease-in-out;
 }
+
+.space {
+    height: 250px;
+    background-position: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home {
+    height: 1000px;
+    background-color: aquamarine;
+    background-position: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
