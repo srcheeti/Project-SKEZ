@@ -29,6 +29,9 @@ const App = () => {
         setHeroCount={setHeroCount}
         playStatus={playStatus}
       />
+      <div className='home'>
+        <h3>Home</h3>
+      </div>
     </div>
   )
 }
