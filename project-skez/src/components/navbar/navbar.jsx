@@ -1,19 +1,17 @@
-import React from 'react';
 import './navbar.css'
 
 const Navbar = () => {
   return (
     <div className='nav'>
       <div className="nav-logo">SSB</div>
-      <div className="nav">Spartan Study Buddies</div>
-      <ul className="nav-menu">
+      <div className="nav-quote">“There is no power for change greater than a community discovering what it cares about” - Margaret J. Wheatley</div>
+      {/* <ul className="nav-menu">
         <li>Home</li>
         <li>Groups</li>
         <li>Reserve</li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
 
-export default Navbar;
-
+export default Navbar

@@ -1,21 +1,18 @@
 import { useState, useEffect } from 'react';
-import Background from './components/background/background';
-import Navbar from './components/navbar/navbar';
-import Hero from './components/hero/hero';
-
-import Home from './components/pages/home';
-
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import * as Scroll from 'react-scroll';
-
-let ScrollLink = Scroll.Link;
+import Background from './components/background/background'
+import Navbar from './components/navbar/navbar'
+import Hero from './components/hero/hero'
 
 const App = () => {
+  // let heroData = [
+  //   { text1: "MEET NEW", text2: "FRIENDS" },
+  //   { text1: "COLLABORATE", text2: "WITH OTHERS" },
+  //   { text1: "ACE", text2: "YOUR ACADEMICS" },
+  // ]
   let heroData = [
-    { text1: "Study", text2: "freely" },
-    { text1: "Collaborate", text2: "with others" },
-    { text1: "Ace", text2: "your academics" },
+    { text1: "", text2: "" },
+    { text1: "", text2: "" },
+    { text1: "", text2: "" },
   ]
   const [heroCount, setHeroCount] = useState(1);
   const [playStatus, setPlayStatus] = useState(false);
@@ -27,55 +24,21 @@ const App = () => {
   }, [])
 
   return (
-    <Router>
-      <div>
-        <Background playStatus={playStatus} heroCount={heroCount} />
-        <Navbar />
-        <Hero
-          setPlayStatus={setPlayStatus}
-          heroData={heroData[heroCount]}
-          heroCount={heroCount}
-          setHeroCount={setHeroCount}
-          playStatus={playStatus}
-        />
-        <ul>
-          <li><ScrollLink to="section1" smooth={true}>Go to Section 1</ScrollLink></li>
-          <li><ScrollLink to="section2" smooth={true}>Go to Section 2</ScrollLink></li>
-        </ul>
-
-        <Routes>
-          <Route path="/" element={<Home />} exact />
-          <Route path="/section1" element={<Section1 />} />
-          {/*<Route path="/section2" element={<Section2 />} /> */}
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <Background playStatus={playStatus} heroCount={heroCount} />
+      <Navbar />
+      <Hero
+        setPlayStatus={setPlayStatus}
+        heroData={heroData[heroCount]}
+        heroCount={heroCount}
+        setHeroCount={setHeroCount}
+        playStatus={playStatus}
+      />
+    </div>
   )
 }
 
-class Section1 extends React.Component {
-  render() {
-    return (
-      <div id="section1">
-        <h2>Section 1</h2>
-        <p>This is Section 1.</p>
-      </div>
-    );
-  }
-}
-
-class Section2 extends React.Component {
-  render() {
-    return (
-      <div id="section2">
-        <h2>Section 2</h2>
-        <p>This is Section 2.</p>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default App
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import './background.css'
 
-import image1 from '../../assets/minskoff.jpg'
-import image2 from '../../assets/msulibrary.jpg'
-import image3 from '../../assets/law.jpg'
+import image1 from '../../assets/Broad.png'
+import image2 from '../../assets/Main.png'
+import image3 from '../../assets/Law.png'
 
 const background = ({ heroCount }) => {
     if (heroCount === 0) {

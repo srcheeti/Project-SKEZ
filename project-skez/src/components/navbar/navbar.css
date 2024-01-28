@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    color: #ECF8E5;
+    background-color: #347571;
+}
+
+.nav-quote {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: items;
+    list-style: 18px;
+    gap: 70px;
+    margin-right: 30px;
+}
