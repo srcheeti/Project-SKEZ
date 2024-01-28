@@ -1,16 +1,7 @@
 import { defineConfig } from 'vite'
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
-import path from 'path'
+import react from '@vitejs/plugin-react-swc'
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
+// https://vitejs.dev/config/
 export default defineConfig({
-  resolve: {
-    alias: [
-      { find: "@", replacement: path.resolve(__dirname, "./src") }
-    ]
-  },
+  plugins: [react()],
 })
-
-

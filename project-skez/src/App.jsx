@@ -4,11 +4,6 @@ import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
 
 const App = () => {
-  // let heroData = [
-  //   { text1: "MEET NEW", text2: "FRIENDS" },
-  //   { text1: "COLLABORATE", text2: "WITH OTHERS" },
-  //   { text1: "ACE", text2: "YOUR ACADEMICS" },
-  // ]
   let heroData = [
     { text1: "", text2: "" },
     { text1: "", text2: "" },
