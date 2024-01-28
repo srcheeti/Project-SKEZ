@@ -1,7 +1,9 @@
 import './hero.css'
 import PropTypes from 'prop-types';
 
-const Hero = ({ heroData, setHeroCount, heroCount }) => {
+import { Link } from "react-router-dom";
+
+const Hero = ({ heroData }) => {
   return (
     <div className='hero'>
       <div className="hero-text">
@@ -9,7 +11,8 @@ const Hero = ({ heroData, setHeroCount, heroCount }) => {
         <p>{heroData.text2}</p>
       </div>
       <div className="hero-explore">
-        <p>About Us</p>
+        {/* <Link href="https://docs.google.com/presentation/d/1qiEAvTI8GX9l4nEaqyBldg-AeqQ-NWmx_aacRuZqgbk/edit?usp=sharing">Get Started</Link> */}
+        <Link to={'/helloWorld'}>Get Started</Link>
       </div>
     </div>
   )

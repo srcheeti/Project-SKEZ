@@ -3,6 +3,8 @@ import React from 'react';
 import Background from './components/background/background'
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
+// import {BrowserRouter, Router, }
+
 
 const App = () => {
   let heroData = [

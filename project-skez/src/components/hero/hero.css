@@ -15,19 +15,21 @@
     /* align-items: center; */
     gap: 50px;
     width: fit-content;
-    margin-top: 20px;
-    padding: 5px 8px;
+    margin-top: 600px;
+    padding: 5px 30px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 60px;
     background-color: #FFF;
     cursor: pointer;
+    text-align: center;
 }
 
 .hero-explore p {
     color: #292929;
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
 }
 
 .hero-play {
