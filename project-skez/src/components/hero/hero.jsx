@@ -9,7 +9,7 @@ const Hero = ({ heroData, setHeroCount, heroCount }) => {
         <p>{heroData.text2}</p>
       </div>
       <div className="hero-explore">
-        <p>Explore Our Study Spaces</p>
+        <p>About Us</p>
       </div>
       <div className="hero-dot-play">
         <ul className="hero-dots">
