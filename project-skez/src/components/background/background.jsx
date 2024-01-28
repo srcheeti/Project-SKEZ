@@ -1,8 +1,8 @@
 import './background.css'
 
-import image1 from '../../assets/in-minskoff.jpeg'
-import image2 from '../../assets/minskoff.jpg'
-import image3 from '../../assets/teamroom.jpeg'
+import image1 from '../../assets/minskoff.jpg'
+import image2 from '../../assets/msulibrary.jpg'
+import image3 from '../../assets/law.jpg'
 
 const background = ({ heroCount }) => {
     if (heroCount === 0) {
