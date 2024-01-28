@@ -1,3 +1,4 @@
+import React from 'react';
 import './background.css'
 
 import image1 from '../../assets/minskoff.jpg'

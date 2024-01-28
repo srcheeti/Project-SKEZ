@@ -1,4 +1,5 @@
 import './hero.css'
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const Hero = ({ heroData, setHeroCount, heroCount }) => {
@@ -9,7 +10,7 @@ const Hero = ({ heroData, setHeroCount, heroCount }) => {
         <p>{heroData.text2}</p>
       </div>
       <div className="hero-explore">
-        <p>About Us</p>
+        <p> PRESS THIS BUTTON </p>
       </div>
       <div className="hero-dot-play">
         <ul className="hero-dots">
