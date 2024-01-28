@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import React from 'react';
 import Background from './components/background/background'
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
